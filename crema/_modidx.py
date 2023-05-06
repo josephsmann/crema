@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://josephsmann.github.io',
                 'git_url': 'https://github.com/josephsmann/crema',
                 'lib_path': 'crema'},
-  'syms': {'crema.core': {'crema.core.foo': ('core.html#foo', 'crema/core.py')}}}
+  'syms': { 'crema.core': { 'crema.core.foo': ('core.html#foo', 'crema/core.py'),
+                            'crema.core.whatisgoingon': ('core.html#whatisgoingon', 'crema/core.py')}}}
