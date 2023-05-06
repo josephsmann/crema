@@ -9,8 +9,11 @@ def foo():
     b = 3 + 4
     return 3
 
-# %% ../00_core.ipynb 5
-def whatisgoingon():
+# %% ../00_core.ipynb 6
+def whatisgoingon(
+        a : int, # this is parameter a 
+        b : int, # this isn't
+        ) -> int: # and the meaning of liff
     """ this is a document string"""
     b = 3 + 4
     return b
