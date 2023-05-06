@@ -4,4 +4,5 @@
 __all__ = ['foo']
 
 # %% ../00_core.ipynb 4
-def foo(): return 3
+def foo() -> int:
+     return 3
